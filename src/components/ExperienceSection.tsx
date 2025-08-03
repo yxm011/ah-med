@@ -4,6 +4,19 @@ import { Stethoscope, Calendar, MapPin } from 'lucide-react';
 
 const experienceData = [
   {
+    title: "Plastic Surgery Internship",
+    institution: "Waldkrankenhaus Bonn",
+    location: "Bonn, Germany",
+    period: "Jul 2025 - Aug 2025",
+    description: "International plastic surgery internship gaining comprehensive experience in reconstructive and aesthetic surgical procedures.",
+    achievements: [
+      "Conducted patient visits and assessments",
+      "Assisted in pre-operative patient preparation",
+      "Participated in post-operative patient care and monitoring",
+      "Observed and assisted in various plastic surgery procedures"
+    ]
+  },
+  {
     title: "Anesthesia Internship",
     institution: "Baku Medika Hospital",
     location: "Baku, Azerbaijan",
