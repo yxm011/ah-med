@@ -4,39 +4,39 @@ import { Stethoscope, Calendar, MapPin } from 'lucide-react';
 
 const experienceData = [
   {
-    title: "Clinical Rotation - Internal Medicine",
-    institution: "Massachusetts General Hospital",
-    location: "Boston, MA",
-    period: "Sep 2024 - Dec 2024",
-    description: "Comprehensive clinical experience managing patients with complex medical conditions including cardiovascular disease, diabetes, and respiratory disorders.",
+    title: "Anesthesia Internship",
+    institution: "Baku Medika Hospital",
+    location: "Baku, Azerbaijan",
+    period: "From Sep 2024",
+    description: "Currently gaining hands-on experience in anesthesia procedures and perioperative patient care in a modern medical facility.",
     achievements: [
-      "Managed 15+ patients daily during inpatient rotations",
-      "Assisted in emergency procedures and critical care",
-      "Presented 20+ case studies to attending physicians"
+      "Learning advanced anesthesia techniques and protocols",
+      "Assisting in pre-operative patient assessments",
+      "Gaining experience in operating room procedures"
     ]
   },
   {
-    title: "Research Assistant",
-    institution: "Cardiovascular Research Lab",
-    location: "Harvard Medical School",
-    period: "Jun 2023 - Aug 2024",
-    description: "Conducted research on novel biomarkers for early detection of cardiovascular disease in high-risk populations.",
+    title: "Surgical Assistant",
+    institution: "Baku UNIKLINIKA",
+    location: "Baku, Azerbaijan",
+    period: "Jul 2023 - Sep 2023, Jul 2024 - Sep 2024",
+    description: "Provided surgical assistance in various procedures while gaining valuable experience in surgical techniques and patient care.",
     achievements: [
-      "Co-authored 3 peer-reviewed publications",
-      "Analyzed data from 500+ patient samples",
-      "Presented findings at American Heart Association conference"
+      "Assisted in multiple surgical procedures",
+      "Maintained sterile environment and surgical protocols",
+      "Supported surgical team in pre and post-operative care"
     ]
   },
   {
-    title: "Clinical Volunteer",
-    institution: "Boston Community Health Center",
-    location: "Boston, MA",
-    period: "Jan 2022 - May 2023",
-    description: "Provided patient care assistance and health education in underserved communities.",
+    title: "ICU Intern & Surgical Assistant",
+    institution: "Baku Medical Plaza",
+    location: "Baku, Azerbaijan",
+    period: "Jun 2022 - Aug 2022",
+    description: "Dual role providing critical care support in the Intensive Care Unit and surgical assistance in operating rooms.",
     achievements: [
-      "Volunteered 200+ hours in patient care",
-      "Conducted health screenings for 100+ patients",
-      "Developed patient education materials in Spanish"
+      "Monitored critical patients in ICU setting",
+      "Assisted in emergency surgical procedures",
+      "Gained experience in patient monitoring and critical care protocols"
     ]
   }
 ];

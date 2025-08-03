@@ -24,11 +24,11 @@ const CVHero = () => {
           </div>
           
           <h1 className={`font-heading text-5xl md:text-6xl font-bold text-foreground mb-4 transition-all duration-1000 delay-200 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
-            Dr. Sarah Chen
+            Dr. Ahmad Asgarov
           </h1>
           
           <p className={`text-xl md:text-2xl text-muted-foreground mb-6 transition-all duration-1000 delay-300 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
-            Medical Student & Aspiring Physician
+            Medical Student
           </p>
           
           <p className={`text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed transition-all duration-1000 delay-400 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
@@ -40,22 +40,27 @@ const CVHero = () => {
           <div className={`flex flex-wrap justify-center gap-4 mb-8 transition-all duration-1000 delay-500 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
             <div className="flex items-center gap-2 text-muted-foreground">
               <Mail className="w-4 h-4" />
-              <span>sarah.chen@medschool.edu</span>
+              <span>ahmed.asgerov03@gmail.com</span>
             </div>
             <div className="flex items-center gap-2 text-muted-foreground">
               <Phone className="w-4 h-4" />
-              <span>(555) 123-4567</span>
+              <span>+994 51 737 2003</span>
             </div>
             <div className="flex items-center gap-2 text-muted-foreground">
               <MapPin className="w-4 h-4" />
-              <span>Boston, MA</span>
+              <span>Baku, AZ</span>
             </div>
           </div>
           
           <div className={`flex flex-wrap justify-center gap-4 transition-all duration-1000 delay-600 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
-            <Button className="medical-gradient hover:scale-105 transition-transform duration-300">
-              <Download className="w-4 h-4 mr-2" />
-              Download CV
+            <Button 
+              className="medical-gradient hover:scale-105 transition-transform duration-300"
+              asChild
+            >
+              <a href="/ahmed_cv.pdf" download="ahmed_cv.pdf">
+                <Download className="w-4 h-4 mr-2" />
+                Download CV
+              </a>
             </Button>
             <Button variant="outline" className="hover:scale-105 transition-transform duration-300">
               <Linkedin className="w-4 h-4 mr-2" />

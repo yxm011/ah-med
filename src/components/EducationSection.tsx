@@ -4,22 +4,22 @@ import { GraduationCap, Calendar, Star } from 'lucide-react';
 
 const educationData = [
   {
-    degree: "Doctor of Medicine (M.D.)",
-    institution: "Harvard Medical School",
-    location: "Boston, MA",
-    period: "2021 - 2025",
-    gpa: "3.9/4.0",
-    honors: ["Dean's List", "Alpha Omega Alpha Honor Society"],
-    description: "Focus on Internal Medicine with clinical rotations in cardiology, emergency medicine, and primary care."
+    degree: "Faculty of Human Medicine",
+    institution: "Azerbaijan Medical University",
+    location: "Baku, Azerbaijan",
+    period: "2020 - Present",
+    gpa: "",
+    honors: ["Medical Student"],
+    description: "Currently pursuing medical education with focus on comprehensive medical training and clinical practice."
   },
   {
-    degree: "Bachelor of Science in Biology",
-    institution: "Massachusetts Institute of Technology",
-    location: "Cambridge, MA",
-    period: "2017 - 2021",
-    gpa: "3.8/4.0",
-    honors: ["Summa Cum Laude", "Phi Beta Kappa"],
-    description: "Specialized in molecular biology and biochemistry with research in cardiovascular disease mechanisms."
+    degree: "High School Diploma",
+    institution: "Ordubad City School No. 3",
+    location: "Nakhchivan, Azerbaijan",
+    period: "2009 - 2020",
+    gpa: "",
+    honors: ["Graduate"],
+    description: "Completed secondary education with strong academic foundation preparing for medical studies."
   }
 ];
 
@@ -80,10 +80,12 @@ const EducationSection = () => {
                         <Calendar className="w-4 h-4" />
                         <span>{edu.period}</span>
                       </div>
-                      <div className="flex items-center gap-2 text-accent font-semibold">
-                        <Star className="w-4 h-4" />
-                        <span>GPA: {edu.gpa}</span>
-                      </div>
+                      {edu.gpa && (
+                        <div className="flex items-center gap-2 text-accent font-semibold">
+                          <Star className="w-4 h-4" />
+                          <span>GPA: {edu.gpa}</span>
+                        </div>
+                      )}
                     </div>
                   </div>
                   

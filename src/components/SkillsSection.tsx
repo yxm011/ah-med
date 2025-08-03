@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Activity, Brain, Users, Award } from 'lucide-react';
+import { Activity, Brain, Users, Languages } from 'lucide-react';
 
 const skillsData = {
   clinical: [
@@ -22,7 +22,10 @@ const skillsData = {
     "Statistical Analysis (R, SPSS)",
     "Data Visualization",
     "Literature Review",
-    "Clinical Research"
+    "Clinical Research",
+    "MS Word",
+    "MS PowerPoint",
+    "MS Excel"
   ],
   interpersonal: [
     "Patient Communication",
@@ -34,14 +37,11 @@ const skillsData = {
     "Conflict Resolution",
     "Public Speaking"
   ],
-  certifications: [
-    "CPR Certified (AHA)",
-    "ACLS Certified",
-    "PALS Certified",
-    "Basic Life Support (BLS)",
-    "USMLE Step 1 - Pass",
-    "USMLE Step 2 CK - 250",
-    "Clinical Skills Assessment"
+  languages: [
+    "Azerbaijani - Native",
+    "German - C1",
+    "English - B2",
+    "Turkish - B2"
   ]
 };
 
@@ -65,9 +65,9 @@ const skillCategories = [
     color: "medical-gradient"
   },
   {
-    title: "Certifications",
-    icon: Award,
-    skills: skillsData.certifications,
+    title: "Language Skills",
+    icon: Languages,
+    skills: skillsData.languages,
     color: "bg-gradient-primary"
   }
 ];
