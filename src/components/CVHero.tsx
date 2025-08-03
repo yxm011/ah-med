@@ -57,7 +57,7 @@ const CVHero = () => {
               className="medical-gradient hover:scale-105 transition-transform duration-300"
               asChild
             >
-              <a href="/ahmed_cv.pdf" download="ahmed_cv.pdf">
+              <a href="/ahmed_v.pdf" download="ahmed_v.pdf">
                 <Download className="w-4 h-4 mr-2" />
                 Download CV
               </a>
