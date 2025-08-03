@@ -24,7 +24,7 @@ const CVHero = () => {
           </div>
           
           <h1 className={`font-heading text-5xl md:text-6xl font-bold text-foreground mb-4 transition-all duration-1000 delay-200 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
-            Dr. Ahmad Asgarov
+            Dr. Ahmed Asgarov
           </h1>
           
           <p className={`text-xl md:text-2xl text-muted-foreground mb-6 transition-all duration-1000 delay-300 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
