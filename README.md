@@ -4,11 +4,11 @@
 
 **URL**: https://lovable.dev/projects/4588c68c-2a33-41f4-a4f3-b971d8909504
 
-## How can I edit this code?
+## Howw can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Use Lovable**  
 
 Simply visit the [Lovable Project](https://lovable.dev/projects/4588c68c-2a33-41f4-a4f3-b971d8909504) and start prompting.
 
