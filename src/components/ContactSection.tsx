@@ -97,7 +97,7 @@ const ContactSection = () => {
               <div className="p-4 bg-secondary/50 rounded-lg">
                 <h4 className="font-medium text-foreground mb-2">Residency Opportunities</h4>
                 <p className="text-sm text-muted-foreground">
-                  Seeking Internal Medicine residency positions for 2025
+                  Seeking Plastic Surgery residency positions for 2026
                 </p>
               </div>
               

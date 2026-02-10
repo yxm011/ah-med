@@ -24,7 +24,7 @@ const CVHero = () => {
           </div>
           
           <h1 className={`font-heading text-5xl md:text-6xl font-bold text-foreground mb-4 transition-all duration-1000 delay-200 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
-            Dr. Ahmed Asgarov
+            Dr. Ahmet Asgarov
           </h1>
           
           <p className={`text-xl md:text-2xl text-muted-foreground mb-6 transition-all duration-1000 delay-300 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
@@ -32,9 +32,7 @@ const CVHero = () => {
           </p>
           
           <p className={`text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed transition-all duration-1000 delay-400 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
-            Passionate about internal medicine and patient care, with extensive clinical experience 
-            and research in cardiovascular health. Committed to advancing healthcare through 
-            evidence-based practice and compassionate patient interaction.
+            Passionate about internal medicine and patient care, with extensive clinical experience and clinical involvement in plastic surgery. Committed to advancing healthcare through evidence-based practice and compassionate patient interaction.
           </p>
           
           <div className={`flex flex-wrap justify-center gap-4 mb-8 transition-all duration-1000 delay-500 ${isVisible ? 'animate-fade-in-up' : 'opacity-0'}`}>
